@@ -3,20 +3,20 @@ body{
     margin: 0;
     padding: 0;
 }
-
-#header{
+/*----- MENU ----*/
+#menu{
     margin-top: 5px;
     background: #1F1F2F;
-    /* display: flex;
-    justify-content: space-between; */
-    /* border: yellowgreen solid 1px; */
     width: 100%;
-/*     
-    margin-left: auto;
-    margin-right: auto; */
+
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
 }
 
-#header-content{
+#menu-content{
     /* border: yellowgreen solid 1px; */
     width: 70%;
     display: flex;
@@ -27,7 +27,7 @@ body{
     margin-right: auto;
 }
 
-#header a{
+#menu a{
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 300;
@@ -37,11 +37,11 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
-#header a:hover{
+#menu a:hover{
     text-decoration: underline;
 }
 
-#header-left{
+#menu-left{
     /* border: yellowgreen solid 1px; */
     display: flex;
     margin-right: 50px;
@@ -50,12 +50,15 @@ body{
     width: 12%;
 }
 
-.iconify-header{
-    font-size: 5px;
-    color:red;
+/*----- HOME ----*/
+.iconify{
+    color: #fafafa;
+    font-size: 50px;
+    padding-left: 5px;
+    margin-top: 25px;
 }
 
-#content{
+#home{
     text-align: center;
     font-family: 'Red Rose', normal;
 
@@ -64,7 +67,7 @@ body{
     /* border: yellowgreen solid 1px; */
 }
 
-#content h1{
+#home h1{
     /* font-family: 'Red Rose', normal; */
     font-weight: normal;
     font-size: 4.5rem;
@@ -73,7 +76,7 @@ body{
     color: #FAFAFA;
 }
 
-#content p{
+#home p{
     /* font-family: 'Red Rose', normal; */
     font-weight: 300;
     font-size: 2rem;
@@ -87,6 +90,7 @@ body{
     list-style-type: none;
     text-align: center;
     justify-content: center;
+    padding: 0;
 }
 
 #social ul li{
@@ -94,14 +98,31 @@ body{
     padding-left: 10px;
 }
 
-.iconify{
-    color: #fafafa;
-    font-size: 50px;
-    padding-left: 25px;
-    margin-top: 25px;
+/*----- ABOUT ----*/
+#about{
+    
+    text-align: center;
+    font-family: 'Red Rose', normal;
+
+    margin-top: 25%;
+    margin-bottom: 25%;
+
 }
 
-#content #p-about{
+#about h1{
+    font-weight: normal;
+    font-size: 4rem;
+
+    margin: 0;
+    color: #FAFAFA;
+}
+
+#about p{
+    font-weight: 300;
+    font-size: 1.4rem;
+
+    margin: 0;
+    color: #FAFAFA;
     width: 40%;
     text-align: center;
     line-height: 44px;
