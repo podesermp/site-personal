@@ -91,6 +91,10 @@ footer{
         font-size: 2em;
         font-family: 'Red Rose', normal;
 
+        color: #fafafa;
+        text-align: center;
+        padding-top: 15px;
+
     }
     nav a:hover{
         background-color: #fafafa;
