@@ -66,7 +66,7 @@ footer{
     font-weight: 300;
 }
 
-@media(max-width: 650px){
+@media screen and (max-width: 650px){
     body{
         grid-template-areas: 
             'navegacao navegacao'
@@ -90,7 +90,3 @@ footer{
         margin-top: 20px;
     }
 }
-
-/* .tag{
-    border: 2px solid red;
-} */
