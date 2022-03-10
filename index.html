@@ -1,56 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Marcos Paulo</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Marcos Paulo</title>
+        <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap" rel="stylesheet"> 
-    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
-</head>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap" rel="stylesheet"> 
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
-<body>
-    <div id='menu'>
-        <div id="menu-content">
-            <a href="/">home</a>
-            <a href="#about">about</a>
-        </div>
-    </div>
+    </head>
+    <body onload="loadPage()">
+        <header><!-- CABEÇALHO --> </header>
+        <nav>
+            <a href="scr/home.html" id="init">Home</a>
+            <a href="scr/about.html">About</a>
+        </nav>
+        <main id="conteudo"><!--CONTEÚDO--></main>
+        <footer>
+            Desenvolvido por eu mesmo
+        </footer>
 
-    <div id="home">
-        <h1>Marcos Paulo R Rodrigues</h1>
-        <p>Desenvolvedor WEB | Mobile | Data science</p>
-        <div id="social">
-            <ul>
-                <li>
-                    <a href="https://github.com/podesermp" target="_blank">
-                        <span class="iconify" data-icon="akar-icons:github-fill"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://medium.com/@podesermp" target="_blank">
-                        <span class="iconify" data-icon="ant-design:medium-square-filled"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/marcospaulorocharodrigues/" target="_blank">
-                        <span class="iconify" data-icon="akar-icons:linkedin-fill"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div id="about">
-        <h1>Sobre</h1>
-        <p id="p-about">
-            Sou estudante de Engenharia de Computação na Universidade Federal do Ceará (UFC). 
-            Tenho contato com linguagens de baixo nível na faculdade, 
-            já dei uma passeada pelo desenvolvimento WEB, tanto front quanto back, 
-            e tenho estudado ultimamente aprendizado de máquina e ciência de dados. 
-            Sou um apaixonado por desenvolvimento.
-        </p>
-    </div>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
