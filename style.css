@@ -88,6 +88,14 @@ footer{
     }
     nav a{
         margin-top: 20px;
+        font-size: 2em;
+        font-family: 'Red Rose', normal;
+
+    }
+    nav a:hover{
+        background-color: #fafafa;
+        color: rgba(9,51,102,.4);
+        text-decoration: underline;
     }
 }
 
