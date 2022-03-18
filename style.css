@@ -13,6 +13,8 @@ body{
 
     background-color: rgb(31, 31, 52);
     color: #fafafa;
+
+    font-family: 'Red Rose', normal;
 }
 
 header{
@@ -66,12 +68,26 @@ footer{
     font-weight: 300;
 }
 
+#FAB{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(31, 31, 52);
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#FAB:hover{
+    border: 1px solid rgb(41, 41, 62);
+}
+
 @media only screen and (max-device-width: 650px){
     body{
         grid-template-areas: 
             'navegacao navegacao'
             'conteudo conteudo'
             'rodape rodape';
+        
     }
     header{
         display: none;
@@ -102,7 +118,3 @@ footer{
         text-decoration: underline;
     }
 }
-
-/* .tag{
-    border: 2px solid red;
-} */
